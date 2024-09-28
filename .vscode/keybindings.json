@@ -1,0 +1,69 @@
+[
+	{
+		"key": "a",
+		"command": "explorer.newFile",
+		"when": "filesExplorerFocus && !inputFocus",
+		"label": "Create a new file in the explorer"
+	},
+	{
+		"key": "shift+a",
+		"command": "explorer.newFolder",
+		"when": "filesExplorerFocus && !inputFocus",
+		"label": "Create a new folder in the explorer"
+	},
+	{
+		"key": "shift+ctrl+e",
+		"command": "workbench.view.explorer",
+		"label": "Open explorer view"
+	},
+	{
+		"key": "shift+ctrl+s",
+		"command": "workbench.action.toggleStatusbarVisibility",
+		"label": "Toggle status bar visibility"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "-workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup",
+		"when": "!activeEditorGroupEmpty",
+		"label": "Remove shortcut for quick open previous recently used editor"
+	},
+	{
+		"key": "ctrl+tab",
+		"command": "-workbench.action.quickOpenNavigateNextInEditorPicker",
+		"when": "inEditorsPicker && inQuickOpen",
+		"label": "Remove shortcut for quick open next in editor picker"
+	},
+	{
+		"key": "alt+d",
+		"command": "workbench.action.nextEditor",
+		"label": "Switch to the next editor"
+	},
+	{
+		"key": "alt+a",
+		"command": "workbench.action.previousEditor",
+		"label": "Switch to the previous editor"
+	},
+	{
+		"key": "delete delete",
+		"command": "editor.action.deleteLines",
+		"when": "textInputFocus && !editorReadonly",
+		"label": "Delete the current line"
+	},
+	{
+		"key": "shift+ctrl+c",
+		"command": "list.collapseAll",
+		"when": "listFocus && !inputFocus && !treestickyScrollFocused",
+		"label": "Collapse all items in a list"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "-workbench.action.closeActiveEditor",
+		"label": "Remove shortcut for closing the active editor"
+	},
+	{
+		"key": "alt+c",
+		"command": "workbench.action.closeActiveEditor",
+		"when": "editorFocus",
+		"label": "Close the active editor"
+	}
+]
