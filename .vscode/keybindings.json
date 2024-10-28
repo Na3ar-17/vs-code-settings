@@ -1,5 +1,14 @@
 [
 	{
+		"key": "ctrl+shift+b",
+		"command": "editor.action.goToTypeDefinition"
+	},
+	{
+		"key": "alt+z",
+		"command": "editor.action.revealDefinition",
+		"when": "editorHasDefinitionProvider && editorTextFocus"
+	},
+	{
 		"key": "a",
 		"command": "explorer.newFile",
 		"when": "filesExplorerFocus && !inputFocus",
