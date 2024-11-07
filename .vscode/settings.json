@@ -2,7 +2,7 @@
 	//basic settings
 	"editor.folding": false,
 	"editor.smoothScrolling": true,
-	"editor.minimap.enabled": true,
+	"editor.minimap.enabled": false,
 	"editor.multiCursorModifier": "ctrlCmd",
 	"editor.scrollBeyondLastLine": true,
 	"editor.unicodeHighlight.ambiguousCharacters": false,
@@ -10,23 +10,19 @@
 	//hints
 	"editor.quickSuggestionsDelay": 0,
 	"html.completion.attributeDefaultValue": "singlequotes",
-
-	//appearance
-	"editor.bracketPairColorization.enabled": false,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.guides.bracketPairs": true,
 	"editor.glyphMargin": false,
-	"editor.scrollbar.horizontal": "hidden",
+	"editor.scrollbar.horizontal": "visible",
 	"editor.scrollbar.vertical": "hidden",
-	"workbench.iconTheme": "quill-icons",
 	"window.density.editorTabHeight": "compact",
 	"editor.accessibilitySupport": "off",
 	"symbols.hidesExplorerArrows": false,
-	"workbench.activityBar.location": "hidden",
 	"workbench.layoutControl.enabled": false,
 	"workbench.editor.editorActionsLocation": "hidden",
 	"workbench.editor.empty.hint": "hidden",
-	"workbench.colorTheme": "Ayu Dark",
 
-	//cusror
+	//cursor
 	"editor.cursorBlinking": "expand",
 	"editor.cursorStyle": "line-thin",
 	"editor.cursorSmoothCaretAnimation": "explicit",
@@ -46,7 +42,7 @@
 	"explorer.confirmDelete": false,
 	"explorer.confirmDragAndDrop": false,
 	"explorer.compactFolders": false,
-	"workbench.editor.tabSizing": "fixed",
+	"workbench.editor.tabSizing": "shrink",
 	"workbench.startupEditor": "newUntitledFile",
 
 	//debugging settings
@@ -107,7 +103,7 @@
 		"**/app/**/layout.tsx": "${dirname}/layout.tsx"
 	},
 
-	//othere
+	//other
 	"files.defaultLanguage": "plaintext",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"security.workspace.trust.untrustedFiles": "open",
@@ -119,7 +115,6 @@
 	"window.commandCenter": false,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.donotVerifyTags": true,
-	"window.zoomLevel": 1.85,
 	"git.autofetch": true,
 	"editor.wordWrapColumn": 80,
 	"editor.linkedEditing": true,
@@ -164,5 +159,27 @@
 	"css.lint.unknownAtRules": "ignore",
 	"less.lint.unknownAtRules": "ignore",
 	"scss.lint.unknownAtRules": "ignore",
-	"explorer.confirmPasteNative": false
+	"explorer.confirmPasteNative": false,
+	"workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+	"cSpell.userWords": [
+		"autofetch",
+		"clsx",
+		"donot",
+		"esbenp",
+		"hookform",
+		"Lexi",
+		"lucide",
+		"Nextjs",
+		"Parens",
+		"singlequotes",
+		"tailwindcss",
+		"tanstack",
+		"vsintellicode"
+	],
+	"editor.bracketPairColorization.enabled": false,
+	"window.customTitleBarVisibility": "auto",
+	"workbench.activityBar.location": "hidden",
+	"workbench.editor.enablePreview": false,
+	"workbench.editor.enablePreviewFromQuickOpen": false,
+	"workbench.colorTheme": "Tokyo Night"
 }
